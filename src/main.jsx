@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
- import Parent from "./projects/Parent";
-import Formvalidation from './projects/Formvalidation'
+ 
+import TodobyReact from "./projects/TodobyReact";
  const Main=()=>{
    
-      return <div>
-             <Formvalidation/>
-      </div>
+      return <TodobyReact/>
    }
   const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(<Main/>)
