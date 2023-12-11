@@ -1,0 +1,58 @@
+/* App.css */
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .terminal {
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .header {
+    height: 20px;
+    background-color: #f6f6f6;
+  }
+  
+  .body {
+    padding: 10px;
+    height: calc(100% - 80px);
+    overflow-y: auto;
+    color: #ddd;
+    background-color: #1e1e1e;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #ddd;
+  }
+  
+  .input-container span {
+    margin-right: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 5px;
+    background-color: transparent;
+    color: #ddd;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  

@@ -3,7 +3,7 @@ import { Button,List,Space,Input,Checkbox } from 'antd';
 import {DeleteOutlined,PlusOutlined } from '@ant-design/icons'
 // google fonts
 
-import './Todo.css'
+
 const TodobyReact = () => {
          const [tasks,setTasks] = useState([]);
          const [newTasks,setNewtasks] = useState('');
